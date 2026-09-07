@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pesquisa de Alunos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="class-editor.css">
+  </head>
+  <body>
+    <div class="backup-actions" aria-label="Cópia de segurança">
+      <button id="exportStorageButton" class="icon-button" type="button" title="Exportar dados guardados" aria-label="Exportar dados guardados">
+        <svg aria-hidden="true" viewBox="0 0 24 24">
+          <path d="M12 3v12"></path>
+          <path d="m7 10 5 5 5-5"></path>
+          <path d="M5 21h14"></path>
+        </svg>
+      </button>
+      <button id="importStorageButton" class="icon-button" type="button" title="Importar cópia" aria-label="Importar cópia">
+        <svg aria-hidden="true" viewBox="0 0 24 24">
+          <path d="M12 21V9"></path>
+          <path d="m17 14-5-5-5 5"></path>
+          <path d="M5 3h14"></path>
+        </svg>
+      </button>
+      <input id="importStorageInput" class="sr-only" type="file" accept=".json" aria-label="Importar cópia">
+    </div>
+
+    <main class="app-shell">
+      <section class="search-panel" aria-label="Pesquisa de alunos">
+        <div>
+          <p class="eyebrow">Escola</p>
+          <h1>Pesquisa de alunos</h1>
+        </div>
+
+        <label class="field year-field">
+          <span>Ano letivo</span>
+          <select id="yearSelect"></select>
+        </label>
+
+        <div class="mode-switch" role="group" aria-label="Tipo de pesquisa">
+          <button class="mode-button active" type="button" data-mode="student">Aluno</button>
+          <button class="mode-button" type="button" data-mode="class">Turma</button>
+        </div>
+
+        <div class="search-row">
+          <label class="field">
+            <span id="searchLabel">Nome do aluno</span>
+            <input id="searchInput" type="search" autocomplete="off" placeholder="Pesquisar por nome">
+          </label>
+          <button id="nowButton" type="button" title="Usar hora atual">Agora</button>
+        </div>
+
+        <div class="time-row">
+          <label class="field compact">
+            <span>Data</span>
+            <input id="dateInput" type="date">
+          </label>
+          <label class="field compact">
+            <span>Hora</span>
+            <input id="timeInput" type="time">
+          </label>
+        </div>
+
+        <section class="student-summary" aria-labelledby="studentSummaryTitle">
+          <h2 id="studentSummaryTitle">Alunos por ano</h2>
+          <dl id="studentSummary"></dl>
+        </section>
+
+        <details class="import-panel">
+          <summary>Adicionar ano letivo</summary>
+          <div class="import-body">
+            <label class="field">
+              <span>Novo ano letivo</span>
+              <input id="importYearInput" type="text" placeholder="2026/2027">
+            </label>
+            <label class="field">
+              <span>Texto copiado do Word</span>
+              <textarea id="importText" rows="8" placeholder="Cola aqui a lista de alunos e horários do Word"></textarea>
+            </label>
+            <button id="importTextButton" type="button">Adicionar ano</button>
+            <p>Copia o conteúdo do Word e cola aqui. O texto deve manter títulos como “Turma 6.º - B”, alunos como “1 - Nome – 1234” e horários como “6.º Ano - Turma B”, dias da semana e blocos “08:15 – 09:45: Português (S15)”.</p>
+            <div class="format-box">
+              <strong>Formato aceite</strong>
+              <code>Turma 6.º - B
+1 - Nome do Aluno – 1234
+
+6.º Ano - Turma B
+Segunda-feira
+08:15 – 09:45: Português (S15)</code>
+            </div>
+          </div>
+        </details>
+      </section>
+
+      <section class="results-panel" aria-live="polite">
+        <div class="results-head">
+          <div>
+            <p class="eyebrow">Resultados</p>
+            <h2 id="resultTitle">Começa a escrever um nome</h2>
+          </div>
+          <p id="clockLabel" class="clock"></p>
+        </div>
+        <div id="results" class="results"></div>
+      </section>
+    </main>
+
+    <template id="studentTemplate">
+      <article class="student-card">
+        <header>
+          <div>
+            <h3></h3>
+            <p class="meta"></p>
+          </div>
+          <span class="class-pill"></span>
+        </header>
+        <div class="status"></div>
+        <details>
+          <summary>Horário do dia</summary>
+          <div class="day-schedule"></div>
+        </details>
+      </article>
+    </template>
+
+    <template id="classTemplate">
+      <article class="class-card">
+        <header>
+          <div>
+            <h3></h3>
+            <p class="meta"></p>
+          </div>
+          <span class="class-pill"></span>
+        </header>
+        <div class="status"></div>
+        <div class="class-grid">
+          <section>
+            <h4>Lista da turma</h4>
+            <ol class="class-list"></ol>
+          </section>
+          <section>
+            <div class="section-head">
+              <h4>Horário</h4>
+              <div class="schedule-switch" role="group" aria-label="Vista do horário">
+                <button class="schedule-button active" type="button" data-view="day">Dia</button>
+                <button class="schedule-button" type="button" data-view="week">Semana</button>
+              </div>
+            </div>
+            <div class="day-schedule class-schedule"></div>
+          </section>
+        </div>
+      </article>
+    </template>
+
+    <script src="app-data.js"></script>
+    <script src="lucide.min.js"></script>
+    <script src="class-editor.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
