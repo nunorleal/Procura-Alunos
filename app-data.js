@@ -17140,195 +17140,11651 @@ window.SCHOOL_DATA = {
       ],
       "schedules": {
         "5A": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
+          "1": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Interpretação",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Interpretação",
+                  "room": "Dram",
+                  "code": "INT"
+                },
+                {
+                  "subject": "Interpretação",
+                  "room": "BE",
+                  "code": "INT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "10:50",
+              "startMinutes": 605,
+              "endMinutes": 650,
+              "subject": "Interpretação",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Interpretação",
+                  "room": "Dram",
+                  "code": "INT"
+                },
+                {
+                  "subject": "Interpretação",
+                  "room": "BE",
+                  "code": "INT"
+                }
+              ]
+            },
+            {
+              "start": "10:50",
+              "end": "11:35",
+              "startMinutes": 650,
+              "endMinutes": 695,
+              "subject": "Improvisação / Voz",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Improvisação",
+                  "room": "Dram",
+                  "code": "IMP"
+                },
+                {
+                  "subject": "Voz",
+                  "room": "BE",
+                  "code": "VOZ"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "Improvisação / Voz",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Improvisação",
+                  "room": "Dram",
+                  "code": "IMP"
+                },
+                {
+                  "subject": "Voz",
+                  "room": "BE",
+                  "code": "VOZ"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "Ateliarte",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Ateliarte",
+                  "room": "S15",
+                  "code": "ART"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Improvisação / Voz",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Improvisação",
+                  "room": "Dram",
+                  "code": "IMP"
+                },
+                {
+                  "subject": "Voz",
+                  "room": "S27",
+                  "code": "VOZ"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "História e Geografia de Portugal",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S15",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "10:50",
+              "startMinutes": 605,
+              "endMinutes": 650,
+              "subject": "Cidadania",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Cidadania",
+                  "room": "S15",
+                  "code": "CID"
+                }
+              ]
+            },
+            {
+              "start": "10:50",
+              "end": "11:35",
+              "startMinutes": 650,
+              "endMinutes": 695,
+              "subject": "Inglês",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S15",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Matemática",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S15",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Educação Visual",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S30",
+                  "code": "EV"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:15",
+              "end": "09:00",
+              "startMinutes": 495,
+              "endMinutes": 540,
+              "subject": "Matemática",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S15",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "09:00",
+              "end": "09:45",
+              "startMinutes": 540,
+              "endMinutes": 585,
+              "subject": "Ciências Naturais",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S15",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Português",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S15",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:15",
+              "end": "09:00",
+              "startMinutes": 495,
+              "endMinutes": 540,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S15",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "09:00",
+              "end": "09:45",
+              "startMinutes": 540,
+              "endMinutes": 585,
+              "subject": "História e Geografia de Portugal",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S15",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Português",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S15",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Inglês",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S15",
+                  "code": "ING-I"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Matemática",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S15",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Português",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S15",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "S12",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Ciências Naturais",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S25",
+                  "code": "CN"
+                }
+              ]
+            }
+          ]
         },
         "5B": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
+          "1": [
+            {
+              "start": "08:15",
+              "end": "09:00",
+              "startMinutes": 495,
+              "endMinutes": 540,
+              "subject": "Inglês",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S12",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "09:00",
+              "end": "09:45",
+              "startMinutes": 540,
+              "endMinutes": 585,
+              "subject": "História e Geografia de Portugal",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S12",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Educação Musical",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Educação Musical",
+                  "room": "S34",
+                  "code": "EDM"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Inglês",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S12",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Português",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S12",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Expressões Artísticas",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S29",
+                  "code": "EA"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Oficina do Conhecimento",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S12",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Matemática",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S12",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Ciências Naturais",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S25",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Português",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S12",
+                  "code": "PORT"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Português",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S12",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Matemática",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S12",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "História e Geografia de Portugal",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S12",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Apoio Tutorial Multidisciplinar",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Apoio Tutorial Multidisciplinar",
+                  "room": "S12",
+                  "code": "ATM"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:15",
+              "end": "09:00",
+              "startMinutes": 495,
+              "endMinutes": 540,
+              "subject": "Matemática",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S12",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "09:00",
+              "end": "09:45",
+              "startMinutes": 540,
+              "endMinutes": 585,
+              "subject": "Ciências Naturais",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S12",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "10:50",
+              "startMinutes": 605,
+              "endMinutes": 650,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "10:50",
+              "end": "11:35",
+              "startMinutes": 650,
+              "endMinutes": 695,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S29",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "S12",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:00",
+              "startMinutes": 855,
+              "endMinutes": 900,
+              "subject": "Expressões Artísticas",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S29",
+                  "code": "EA"
+                }
+              ]
+            },
+            {
+              "start": "15:00",
+              "end": "15:45",
+              "startMinutes": 900,
+              "endMinutes": 945,
+              "subject": "Ateliarte",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Ateliarte",
+                  "room": "S29",
+                  "code": "ART"
+                }
+              ]
+            }
+          ]
         },
         "5C": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
+          "1": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Inglês",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S11",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "História e Geografia de Portugal",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S11",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Educação Musical",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Educação Musical",
+                  "room": "S34",
+                  "code": "EDM"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Expressões Artísticas",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S29",
+                  "code": "EA"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Matemática",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S11",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Português",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S11",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Oficina do Conhecimento",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S11",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Português",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S11",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "10:50",
+              "startMinutes": 605,
+              "endMinutes": 650,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "10:50",
+              "end": "11:35",
+              "startMinutes": 650,
+              "endMinutes": 695,
+              "subject": "Inglês",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S11",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "História e Geografia de Portugal",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S31",
+                  "code": "HGP"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Ciências Naturais",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S25",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "10:50",
+              "startMinutes": 605,
+              "endMinutes": 650,
+              "subject": "Expressões Artísticas",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S29",
+                  "code": "EA"
+                }
+              ]
+            },
+            {
+              "start": "10:50",
+              "end": "11:35",
+              "startMinutes": 650,
+              "endMinutes": 695,
+              "subject": "Ateliarte",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Ateliarte",
+                  "room": "S29",
+                  "code": "ART"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Matemática",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S11",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Apoio Tutorial Multidisciplinar",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "Apoio Tutorial Multidisciplinar",
+                  "room": "S11",
+                  "code": "ATM"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Português",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S11",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "10:50",
+              "startMinutes": 605,
+              "endMinutes": 650,
+              "subject": "Matemática",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S11",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:50",
+              "end": "11:35",
+              "startMinutes": 650,
+              "endMinutes": 695,
+              "subject": "Ciências Naturais",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S11",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S11",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "S12",
+                  "code": "EMR"
+                }
+              ]
+            }
+          ]
         },
         "5D": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
-        },
-        "5E": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
-        },
-        "5F": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
+          "1": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Português",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S13",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "História e Geografia de Portugal",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S13",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Inglês",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S13",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:00",
+              "startMinutes": 855,
+              "endMinutes": 900,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "15:00",
+              "end": "15:45",
+              "startMinutes": 900,
+              "endMinutes": 945,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Ciências Naturais",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S25",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Expressões Artísticas",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S29",
+                  "code": "EA"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Educação Musical",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Educação Musical",
+                  "room": "S34",
+                  "code": "EDM"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Oficina do Conhecimento",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S13",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Português",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S13",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "10:50",
+              "startMinutes": 605,
+              "endMinutes": 650,
+              "subject": "Matemática",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S13",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:50",
+              "end": "11:35",
+              "startMinutes": 650,
+              "endMinutes": 695,
+              "subject": "Ciências Naturais",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S13",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "História e Geografia de Portugal",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S13",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "Inglês",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S13",
+                  "code": "ING-I"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Português",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S13",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Matemática",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S13",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "Expressões Artísticas",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S29",
+                  "code": "EA"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "Ateliarte",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Ateliarte",
+                  "room": "S29",
+                  "code": "ART"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Apoio Tutorial Multidisciplinar",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "Apoio Tutorial Multidisciplinar",
+                  "room": "S13",
+                  "code": "ATM"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Matemática",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S13",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S13",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "S12",
+                  "code": "EMR"
+                }
+              ]
+            }
+          ]
         },
         "6A": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
-        },
-        "6C": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
-        },
-        "6F": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
-        },
-        "6E": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
+          "1": [
+            {
+              "start": "08:15",
+              "end": "09:00",
+              "startMinutes": 495,
+              "endMinutes": 540,
+              "subject": "Ciências Naturais",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "G11",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "09:00",
+              "end": "09:45",
+              "startMinutes": 540,
+              "endMinutes": 585,
+              "subject": "Matemática",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "G11",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "10:50",
+              "startMinutes": 605,
+              "endMinutes": 650,
+              "subject": "Ateliarte",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Ateliarte",
+                  "room": "G11",
+                  "code": "ART"
+                }
+              ]
+            },
+            {
+              "start": "10:50",
+              "end": "11:35",
+              "startMinutes": 650,
+              "endMinutes": 695,
+              "subject": "Cidadania",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Cidadania",
+                  "room": "G11",
+                  "code": "CID"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Português",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "G11",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Educação Visual",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S30",
+                  "code": "EV"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Português",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "G11",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Matemática",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "G11",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Ciências Naturais",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S26",
+                  "code": "CN"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:15",
+              "end": "09:00",
+              "startMinutes": 495,
+              "endMinutes": 540,
+              "subject": "DT Atendimento a Alunos",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "G11",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "09:00",
+              "end": "09:45",
+              "startMinutes": 540,
+              "endMinutes": 585,
+              "subject": "Inglês",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "G11",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Matemática",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "G11",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Português",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "G11",
+                  "code": "PORT"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Interpretação",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Interpretação",
+                  "room": "Dram",
+                  "code": "INT"
+                },
+                {
+                  "subject": "Interpretação",
+                  "room": "BE",
+                  "code": "INT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "10:50",
+              "startMinutes": 605,
+              "endMinutes": 650,
+              "subject": "Interpretação",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Interpretação",
+                  "room": "Dram",
+                  "code": "INT"
+                },
+                {
+                  "subject": "Interpretação",
+                  "room": "BE",
+                  "code": "INT"
+                }
+              ]
+            },
+            {
+              "start": "10:50",
+              "end": "11:35",
+              "startMinutes": 650,
+              "endMinutes": 695,
+              "subject": "Improvisação / Voz",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Improvisação",
+                  "room": "Dram",
+                  "code": "IMP"
+                },
+                {
+                  "subject": "Voz",
+                  "room": "MediaLab",
+                  "code": "VOZ"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "Improvisação / Voz",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Improvisação",
+                  "room": "Dram",
+                  "code": "IMP"
+                },
+                {
+                  "subject": "Voz",
+                  "room": "MediaLab",
+                  "code": "VOZ"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "História e Geografia de Portugal",
+              "room": "S33",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S33",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Improvisação / Voz",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Improvisação",
+                  "room": "Dram",
+                  "code": "IMP"
+                },
+                {
+                  "subject": "Voz",
+                  "room": "MediaLab",
+                  "code": "VOZ"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:15",
+              "end": "09:00",
+              "startMinutes": 495,
+              "endMinutes": 540,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "G11",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "09:00",
+              "end": "09:45",
+              "startMinutes": 540,
+              "endMinutes": 585,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "História e Geografia de Portugal",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "G11",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Inglês",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "G11",
+                  "code": "ING-I"
+                }
+              ]
+            }
+          ]
         },
         "6B": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
+          "1": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Português",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S16",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Matemática",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S16",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "Ciências Naturais",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S16",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "Interpretação",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Interpretação",
+                  "room": "Dram",
+                  "code": "INT"
+                },
+                {
+                  "subject": "Interpretação",
+                  "room": "BE",
+                  "code": "INT"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Português",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S16",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "Matemática",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S16",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "Ateliarte",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Ateliarte",
+                  "room": "S16",
+                  "code": "ART"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:00",
+              "startMinutes": 855,
+              "endMinutes": 900,
+              "subject": "História e Geografia de Portugal",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S16",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "15:00",
+              "end": "15:45",
+              "startMinutes": 900,
+              "endMinutes": 945,
+              "subject": "Cidadania",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Cidadania",
+                  "room": "S16",
+                  "code": "CID"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Interpretação",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Interpretação",
+                  "room": "Dram",
+                  "code": "INT"
+                },
+                {
+                  "subject": "Interpretação",
+                  "room": "BE",
+                  "code": "INT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Improvisação / Voz",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Improvisação",
+                  "room": "Dram",
+                  "code": "IMP"
+                },
+                {
+                  "subject": "Voz",
+                  "room": "MediaLab",
+                  "code": "VOZ"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Improvisação / Voz",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Improvisação",
+                  "room": "Dram",
+                  "code": "IMP"
+                },
+                {
+                  "subject": "Voz",
+                  "room": "MediaLab",
+                  "code": "VOZ"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Matemática",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S16",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "História e Geografia de Portugal",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S16",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Português",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S16",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:00",
+              "startMinutes": 855,
+              "endMinutes": 900,
+              "subject": "Inglês",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S16",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "15:00",
+              "end": "15:45",
+              "startMinutes": 900,
+              "endMinutes": 945,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:15",
+              "end": "09:00",
+              "startMinutes": 495,
+              "endMinutes": 540,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "G11",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "09:00",
+              "end": "09:45",
+              "startMinutes": 540,
+              "endMinutes": 585,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S16",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Educação Visual",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S30",
+                  "code": "EV"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Ciências Naturais",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S25",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Inglês",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S16",
+                  "code": "ING-I"
+                }
+              ]
+            }
+          ]
+        },
+        "6C": {
+          "1": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Ciências Naturais",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S25",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Educação Musical",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Educação Musical",
+                  "room": "S34",
+                  "code": "EDM"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Matemática",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S17",
+                  "code": "MAT"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Inglês",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S17",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Português",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S17",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Expressões Artísticas",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S30",
+                  "code": "EA"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Oficina do Conhecimento",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S17",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Português",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S17",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "História e Geografia de Portugal",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S17",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S17",
+                  "code": "DTAA"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "História e Geografia de Portugal",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S17",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Matemática",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S17",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Português",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S17",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Apoio Tutorial Multidisciplinar",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "Apoio Tutorial Multidisciplinar",
+                  "room": "S17",
+                  "code": "ATM"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:15",
+              "end": "09:00",
+              "startMinutes": 495,
+              "endMinutes": 540,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "G11",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "09:00",
+              "end": "09:45",
+              "startMinutes": 540,
+              "endMinutes": 585,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "10:50",
+              "startMinutes": 605,
+              "endMinutes": 650,
+              "subject": "Inglês",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S25",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "10:50",
+              "end": "11:35",
+              "startMinutes": 650,
+              "endMinutes": 695,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "Expressões Artísticas",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S30",
+                  "code": "EA"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "Ateliarte",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Ateliarte",
+                  "room": "S30",
+                  "code": "ART"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:00",
+              "startMinutes": 855,
+              "endMinutes": 900,
+              "subject": "Matemática",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S26",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "15:00",
+              "end": "15:45",
+              "startMinutes": 900,
+              "endMinutes": 945,
+              "subject": "Ciências Naturais",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S26",
+                  "code": "CN"
+                }
+              ]
+            }
+          ]
         },
         "6D": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
-        },
-        "7C": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
-        },
-        "7F": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
-        },
-        "7D": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
-        },
-        "7E": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
+          "1": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Educação Musical",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Educação Musical",
+                  "room": "S34",
+                  "code": "EDM"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "História e Geografia de Portugal",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S18",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "Matemática",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S18",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "Ciências Naturais",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S18",
+                  "code": "CN"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S18",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Expressões Artísticas",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S30",
+                  "code": "EA"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S18",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Oficina do Conhecimento",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S18",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Matemática",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S18",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "10:50",
+              "startMinutes": 605,
+              "endMinutes": 650,
+              "subject": "História e Geografia de Portugal",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S18",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "10:50",
+              "end": "11:35",
+              "startMinutes": 650,
+              "endMinutes": 695,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Inglês",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S18",
+                  "code": "ING-I"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S18",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "Sem sala",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Ciências Naturais",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S25",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Matemática",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S18",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Apoio Tutorial Multidisciplinar",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "Apoio Tutorial Multidisciplinar",
+                  "room": "S18",
+                  "code": "ATM"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:15",
+              "end": "09:00",
+              "startMinutes": 495,
+              "endMinutes": 540,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "G11",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "09:00",
+              "end": "09:45",
+              "startMinutes": 540,
+              "endMinutes": 585,
+              "subject": "Inglês",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S18",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S18",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:00",
+              "startMinutes": 855,
+              "endMinutes": 900,
+              "subject": "Expressões Artísticas",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S30",
+                  "code": "EA"
+                }
+              ]
+            },
+            {
+              "start": "15:00",
+              "end": "15:45",
+              "startMinutes": 900,
+              "endMinutes": 945,
+              "subject": "Ateliarte",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Ateliarte",
+                  "room": "S30",
+                  "code": "ART"
+                }
+              ]
+            }
+          ]
         },
         "7A": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
+          "1": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Ciências Naturais",
+              "room": "S23",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Ciências Físico-Químicas",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S21",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Português",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S21",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Cidadania",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Cidadania",
+                  "room": "S21",
+                  "code": "CID"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "16:05",
+              "end": "16:50",
+              "startMinutes": 965,
+              "endMinutes": 1010,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S21",
+                  "code": "DTAA"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Interpretação",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Interpretação",
+                  "room": "Dram",
+                  "code": "INT"
+                },
+                {
+                  "subject": "Interpretação",
+                  "room": "BE",
+                  "code": "INT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Interpretação",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Interpretação",
+                  "room": "Dram",
+                  "code": "INT"
+                },
+                {
+                  "subject": "Interpretação",
+                  "room": "BE",
+                  "code": "INT"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Improvisação / Voz",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Improvisação",
+                  "room": "Dram",
+                  "code": "IMP"
+                },
+                {
+                  "subject": "Voz",
+                  "room": "BE",
+                  "code": "VOZ"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Improvisação / Voz",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Improvisação",
+                  "room": "Dram",
+                  "code": "IMP"
+                },
+                {
+                  "subject": "Voz",
+                  "room": "BE",
+                  "code": "VOZ"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Inglês",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S21",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Improvisação / Voz",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Improvisação",
+                  "room": "Dram",
+                  "code": "IMP"
+                },
+                {
+                  "subject": "Voz",
+                  "room": "S21",
+                  "code": "VOZ"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "História",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S21",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Espanhol / Francês",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Espanhol",
+                  "room": "S34",
+                  "code": "ESP-"
+                },
+                {
+                  "subject": "Francês",
+                  "room": "S21",
+                  "code": "FRA-"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Português",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S21",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Matemática",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S21",
+                  "code": "MAT"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Matemática",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S21",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Geografia",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S21",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Técnicas de Produção Teatral",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Técnicas de Produção Teatral",
+                  "room": "S21",
+                  "code": "TPT"
+                },
+                {
+                  "subject": "Técnicas de Produção Teatral",
+                  "room": "Sem sala",
+                  "code": "TPT"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Ciências Naturais / Ciências Físico-Químicas",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                },
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "Educação Visual",
+              "room": "S20",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S20",
+                  "code": "EV"
+                }
+              ]
+            },
+            {
+              "start": "16:05",
+              "end": "16:50",
+              "startMinutes": 965,
+              "endMinutes": 1010,
+              "subject": "Educação Visual",
+              "room": "S20",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S20",
+                  "code": "EV"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Português",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S21",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Inglês",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S21",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Matemática",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S21",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "S21",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "Geografia",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S21",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "16:05",
+              "end": "16:50",
+              "startMinutes": 965,
+              "endMinutes": 1010,
+              "subject": "Geografia",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S21",
+                  "code": "GEO"
+                }
+              ]
+            }
+          ]
         },
         "7B": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
+          "1": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Inglês",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S21",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Ciências Naturais",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S12",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Ciências Físico-Químicas",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S12",
+                  "code": "FQ"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Espanhol",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "Espanhol",
+                  "room": "S13",
+                  "code": "ESP-I"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Matemática",
+              "room": "S20",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S20",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Educação Visual",
+              "room": "S20",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S20",
+                  "code": "EV"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:30",
+              "end": "09:15",
+              "startMinutes": 510,
+              "endMinutes": 555,
+              "subject": "Ciências Físico-Químicas / Ciências Naturais",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                },
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "09:15",
+              "end": "10:00",
+              "startMinutes": 555,
+              "endMinutes": 600,
+              "subject": "Ciências Naturais / Ciências Físico-Químicas",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                },
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S20",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Matemática",
+              "room": "S20",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S20",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Geografia",
+              "room": "S20",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S20",
+                  "code": "GEO"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:30",
+              "end": "09:15",
+              "startMinutes": 510,
+              "endMinutes": 555,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "09:15",
+              "end": "10:00",
+              "startMinutes": 555,
+              "endMinutes": 600,
+              "subject": "Espanhol",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "Espanhol",
+                  "room": "S11",
+                  "code": "ESP-I"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S20",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "História",
+              "room": "S20",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S20",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Oficina do Conhecimento",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S30",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Matemática",
+              "room": "S20",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S20",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S12",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "Sem sala",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Inglês",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S12",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Geografia",
+              "room": "S20",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S20",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "S21",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S20",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S20",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "16:05",
+              "end": "16:50",
+              "startMinutes": 965,
+              "endMinutes": 1010,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            }
+          ]
         },
-        "8C": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
+        "7C": {
+          "1": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Matemática",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S17",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Português",
+              "room": "S24",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S24",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Educação Visual",
+              "room": "S20",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S20",
+                  "code": "EV"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Geografia",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S19",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Espanhol",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "Espanhol",
+                  "room": "S19",
+                  "code": "ESP-I"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "História",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S19",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Ciências Físico-Químicas / Ciências Naturais",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                },
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "Ciências Naturais / Ciências Físico-Químicas",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                },
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:30",
+              "end": "09:15",
+              "startMinutes": 510,
+              "endMinutes": 555,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S30",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "09:15",
+              "end": "10:00",
+              "startMinutes": 555,
+              "endMinutes": 600,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Inglês",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S16",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Geografia",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S16",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Ciências Físico-Químicas",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S25",
+                  "code": "FQ"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:30",
+              "end": "09:15",
+              "startMinutes": 510,
+              "endMinutes": 555,
+              "subject": "Espanhol",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "Espanhol",
+                  "room": "S19",
+                  "code": "ESP-I"
+                }
+              ]
+            },
+            {
+              "start": "09:15",
+              "end": "10:00",
+              "startMinutes": 555,
+              "endMinutes": 600,
+              "subject": "Matemática",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S19",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Ciências Naturais",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S26",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Português",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "G11",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Oficina do Conhecimento",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S21",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Inglês",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "Sem sala",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Matemática",
+              "room": "S23",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S23",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Português",
+              "room": "CAF",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "CAF",
+                  "code": "PORT"
+                }
+              ]
+            }
+          ]
         },
-        "8B": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
+        "6F": {
+          "1": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Matemática",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S10",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Ciências Naturais",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S25",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Expressões Artísticas",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S30",
+                  "code": "EA"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:00",
+              "startMinutes": 855,
+              "endMinutes": 900,
+              "subject": "História e Geografia de Portugal",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S10",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "15:00",
+              "end": "15:45",
+              "startMinutes": 900,
+              "endMinutes": 945,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:15",
+              "end": "09:00",
+              "startMinutes": 495,
+              "endMinutes": 540,
+              "subject": "Matemática",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S10",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "09:00",
+              "end": "09:45",
+              "startMinutes": 540,
+              "endMinutes": 585,
+              "subject": "Ciências Naturais",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S10",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "10:50",
+              "startMinutes": 605,
+              "endMinutes": 650,
+              "subject": "Inglês",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S10",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "10:50",
+              "end": "11:35",
+              "startMinutes": 650,
+              "endMinutes": 695,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Português",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S10",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Oficina do Conhecimento",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S10",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Educação Musical",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Educação Musical",
+                  "room": "S34",
+                  "code": "EDM"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "10:50",
+              "startMinutes": 605,
+              "endMinutes": 650,
+              "subject": "Expressões Artísticas",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S30",
+                  "code": "EA"
+                }
+              ]
+            },
+            {
+              "start": "10:50",
+              "end": "11:35",
+              "startMinutes": 650,
+              "endMinutes": 695,
+              "subject": "Ateliarte",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Ateliarte",
+                  "room": "S30",
+                  "code": "ART"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Português",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S10",
+                  "code": "PORT"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "História e Geografia de Portugal",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S10",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Inglês",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S10",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Apoio Tutorial Multidisciplinar",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "Apoio Tutorial Multidisciplinar",
+                  "room": "S10",
+                  "code": "ATM"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:15",
+              "end": "09:00",
+              "startMinutes": 495,
+              "endMinutes": 540,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "G11",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "09:00",
+              "end": "09:45",
+              "startMinutes": 540,
+              "endMinutes": 585,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S10",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Matemática",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S10",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Português",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S10",
+                  "code": "PORT"
+                }
+              ]
+            }
+          ]
         },
         "8A": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
+          "1": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Educação Visual",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S19",
+                  "code": "EV"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Inglês",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S10",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Ciências Naturais",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S25",
+                  "code": "CN"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Matemática",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S11",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Ciências Naturais / Ciências Físico-Químicas",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                },
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Ciências Físico-Químicas / Ciências Naturais",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                },
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "História",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S17",
+                  "code": "HIST"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Matemática",
+              "room": "S33",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S33",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "G10",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Espanhol",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "Espanhol",
+                  "room": "S19",
+                  "code": "ESP-I"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:30",
+              "end": "09:15",
+              "startMinutes": 510,
+              "endMinutes": 555,
+              "subject": "Matemática",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S11",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "09:15",
+              "end": "10:00",
+              "startMinutes": 555,
+              "endMinutes": 600,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "G11",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Inglês",
+              "room": "S24",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S24",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Oficina do Conhecimento",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S15",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Geografia",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S17",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S34",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "Sem sala",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "História",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S34",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Ciências Físico-Químicas",
+              "room": "S24",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S24",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "S21",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S13",
+                  "code": "DTAA"
+                }
+              ]
+            }
+          ]
+        },
+        "8B": {
+          "1": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Geografia",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S15",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Inglês",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S29",
+                  "code": "ING-I"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Ciências Naturais",
+              "room": "S23",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Matemática",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S18",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Espanhol",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "Espanhol",
+                  "room": "S14",
+                  "code": "ESP-I"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Ciências Físico-Químicas",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S29",
+                  "code": "FQ"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S10",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "História",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S27",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Matemática",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S27",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S10",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Ciências Naturais / Ciências Físico-Químicas",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                },
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Ciências Físico-Químicas / Ciências Naturais",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                },
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Inglês",
+              "room": "S24",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S24",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Oficina do Conhecimento",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S29",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Educação Visual",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S19",
+                  "code": "EV"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "História",
+              "room": "G10",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "G10",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "G10",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Matemática",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S14",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "S21",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S11",
+                  "code": "DTAA"
+                }
+              ]
+            }
+          ]
+        },
+        "8C": {
+          "1": [
+            {
+              "start": "08:30",
+              "end": "09:15",
+              "startMinutes": 510,
+              "endMinutes": 555,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S27",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "09:15",
+              "end": "10:00",
+              "startMinutes": 555,
+              "endMinutes": 600,
+              "subject": "Inglês",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S27",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Matemática",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S27",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Geografia",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S27",
+                  "code": "GEO"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Português",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S27",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Ciências Naturais",
+              "room": "S24",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S24",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "História",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S27",
+                  "code": "HIST"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Matemática",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S27",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Educação Visual",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S19",
+                  "code": "EV"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Ciências Físico-Químicas / Ciências Naturais",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                },
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Ciências Naturais / Ciências Físico-Químicas",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                },
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Inglês",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S27",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Português",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S27",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Oficina do Conhecimento",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S27",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Ciências Físico-Químicas",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S27",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Espanhol",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "Espanhol",
+                  "room": "S27",
+                  "code": "ESP-I"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "História",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S27",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Português",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S27",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Matemática",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S27",
+                  "code": "MAT"
+                }
+              ]
+            }
+          ]
         },
         "8D": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
-        },
-        "9D": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
-        },
-        "9E": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
+          "1": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Inglês",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S11",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Ciências Naturais",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S14",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Matemática",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S15",
+                  "code": "MAT"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "História",
+              "room": "S24",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S24",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Português",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S27",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Ciências Físico-Químicas",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S27",
+                  "code": "FQ"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Português",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S25",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Inglês",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S29",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S29",
+                  "code": "DTAA"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:30",
+              "end": "09:15",
+              "startMinutes": 510,
+              "endMinutes": 555,
+              "subject": "Ciências Naturais / Ciências Físico-Químicas",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                },
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "09:15",
+              "end": "10:00",
+              "startMinutes": 555,
+              "endMinutes": 600,
+              "subject": "Ciências Físico-Químicas / Ciências Naturais",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                },
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Matemática",
+              "room": "S27",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S27",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Espanhol / Francês",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Espanhol",
+                  "room": "S30",
+                  "code": "ESP-I"
+                },
+                {
+                  "subject": "Francês",
+                  "room": "S19",
+                  "code": "FRA-I"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Oficina do Conhecimento",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "G11",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Matemática",
+              "room": "S24",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S24",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Educação Visual",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S19",
+                  "code": "EV"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Português",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S18",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "História",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S18",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Geografia",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S14",
+                  "code": "GEO"
+                }
+              ]
+            }
+          ]
         },
         "9A": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
-        },
-        "9C": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
+          "1": [
+            {
+              "start": "08:30",
+              "end": "09:15",
+              "startMinutes": 510,
+              "endMinutes": 555,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S15",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "09:15",
+              "end": "10:00",
+              "startMinutes": 555,
+              "endMinutes": 600,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Educação Visual",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S19",
+                  "code": "EV"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Inglês",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S10",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Ciências Naturais / Ciências Físico-Químicas",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S24",
+                  "code": "CN"
+                },
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S24",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "Ciências Físico-Químicas / Ciências Naturais",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S24",
+                  "code": "FQ"
+                },
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S24",
+                  "code": "CN"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "G10",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Geografia",
+              "room": "G10",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "G10",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Matemática",
+              "room": "G10",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "G10",
+                  "code": "MAT"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "História",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S29",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Geografia",
+              "room": "S33",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S33",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S33",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S30",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "Sem sala",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Matemática",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S30",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Inglês",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S30",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S32",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S32",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Oficina do Conhecimento",
+              "room": "S32",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S32",
+                  "code": "OC"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "S34",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "História",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S16",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "16:05",
+              "end": "16:50",
+              "startMinutes": 965,
+              "endMinutes": 1010,
+              "subject": "Preparação de Provas Finais",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Preparação de Provas Finais",
+                  "room": "S16",
+                  "code": "PPF_"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Ciências Naturais",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S25",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Ciências Físico-Químicas",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S16",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Espanhol / Francês",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Espanhol",
+                  "room": "S16",
+                  "code": "ESP-I"
+                },
+                {
+                  "subject": "Francês",
+                  "room": "S34",
+                  "code": "FRA-I"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Matemática",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S18",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "16:05",
+              "end": "16:50",
+              "startMinutes": 965,
+              "endMinutes": 1010,
+              "subject": "Preparação de Provas Finais",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "Preparação de Provas Finais",
+                  "room": "S18",
+                  "code": "PPF_"
+                }
+              ]
+            }
+          ]
         },
         "9B": {
-          "1": [],
-          "2": [],
-          "3": [],
-          "4": [],
-          "5": []
+          "1": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "História",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S26",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Educação Visual",
+              "room": "S20",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S20",
+                  "code": "EV"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Geografia",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S26",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "16:05",
+              "end": "16:50",
+              "startMinutes": 965,
+              "endMinutes": 1010,
+              "subject": "Preparação de Provas Finais",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Preparação de Provas Finais",
+                  "room": "S26",
+                  "code": "PPF_"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Ciências Físico-Químicas",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S26",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Inglês",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S26",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "História",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S26",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Geografia",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S26",
+                  "code": "GEO"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S26",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Matemática",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S26",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Ciências Naturais",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S26",
+                  "code": "CN"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S26",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "Sem sala",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Inglês",
+              "room": "S24",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S24",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Matemática",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S26",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "S34",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S26",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "16:05",
+              "end": "16:50",
+              "startMinutes": 965,
+              "endMinutes": 1010,
+              "subject": "Preparação de Provas Finais",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Preparação de Provas Finais",
+                  "room": "S26",
+                  "code": "PPF_"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Francês",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Francês",
+                  "room": "S26",
+                  "code": "FRA-I"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Matemática",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S26",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S26",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S32",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S32",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Oficina do Conhecimento",
+              "room": "S32",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S32",
+                  "code": "OC"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Ciências Naturais / Ciências Físico-Químicas",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S24",
+                  "code": "CN"
+                },
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S24",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "Ciências Físico-Químicas / Ciências Naturais",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S24",
+                  "code": "FQ"
+                },
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S24",
+                  "code": "CN"
+                }
+              ]
+            }
+          ]
+        },
+        "9C": {
+          "1": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Ciências Naturais",
+              "room": "S24",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S24",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Ciências Físico-Químicas",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S29",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Matemática",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S30",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "História",
+              "room": "CAF",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "CAF",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Inglês",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S21",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S22",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S22",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Português",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S15",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "Geografia",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S15",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "16:05",
+              "end": "16:50",
+              "startMinutes": 965,
+              "endMinutes": 1010,
+              "subject": "Preparação de Provas Finais",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Preparação de Provas Finais",
+                  "room": "S15",
+                  "code": "PPF_"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Português",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S19",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Inglês",
+              "room": "S32",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S32",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Geografia",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S34",
+                  "code": "GEO"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:30",
+              "end": "09:15",
+              "startMinutes": 510,
+              "endMinutes": 555,
+              "subject": "Matemática",
+              "room": "S24",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S24",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "09:15",
+              "end": "10:00",
+              "startMinutes": 555,
+              "endMinutes": 600,
+              "subject": "História",
+              "room": "S24",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S24",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Espanhol",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Espanhol",
+                  "room": "S34",
+                  "code": "ESP-I"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Português",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S34",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "S34",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "16:05",
+              "end": "16:50",
+              "startMinutes": 965,
+              "endMinutes": 1010,
+              "subject": "Preparação de Provas Finais",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Preparação de Provas Finais",
+                  "room": "S15",
+                  "code": "PPF_"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Matemática",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S34",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Oficina do Conhecimento",
+              "room": "S32",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S32",
+                  "code": "OC"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S32",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S32",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Ciências Físico-Químicas / Ciências Naturais",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                },
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Ciências Naturais / Ciências Físico-Químicas",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                },
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Educação Visual",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S19",
+                  "code": "EV"
+                }
+              ]
+            }
+          ]
+        },
+        "9D": {
+          "1": [
+            {
+              "start": "08:30",
+              "end": "09:15",
+              "startMinutes": 510,
+              "endMinutes": 555,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "09:15",
+              "end": "10:00",
+              "startMinutes": 555,
+              "endMinutes": 600,
+              "subject": "Inglês",
+              "room": "CAF",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "CAF",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Matemática",
+              "room": "CAF",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "CAF",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Ciências Naturais",
+              "room": "CAF",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "CAF",
+                  "code": "CN"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "História",
+              "room": "CAF",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "CAF",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Ciências Naturais / Ciências Físico-Químicas",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S24",
+                  "code": "CN"
+                },
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S24",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Ciências Físico-Químicas / Ciências Naturais",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S24",
+                  "code": "FQ"
+                },
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S24",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Matemática",
+              "room": "CAF",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "CAF",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S32",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S32",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "Oficina do Conhecimento",
+              "room": "S32",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S32",
+                  "code": "OC"
+                }
+              ]
+            },
+            {
+              "start": "16:05",
+              "end": "16:50",
+              "startMinutes": 965,
+              "endMinutes": 1010,
+              "subject": "Preparação de Provas Finais",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "Preparação de Provas Finais",
+                  "room": "S14",
+                  "code": "PPF_"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Geografia",
+              "room": "CAF",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "CAF",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "CAF",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Inglês",
+              "room": "CAF",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "CAF",
+                  "code": "ING-I"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "CAF",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Matemática",
+              "room": "CAF",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "CAF",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "História",
+              "room": "CAF",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "CAF",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "S34",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "DT Atendimento a Alunos",
+              "room": "CAF",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "CAF",
+                  "code": "DTAA"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Ciências Físico-Químicas",
+              "room": "CAF",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "CAF",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "CAF",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "Sem sala",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Geografia",
+              "room": "CAF",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "CAF",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Educação Visual",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S19",
+                  "code": "EV"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Espanhol",
+              "room": "CAF",
+              "options": [
+                {
+                  "subject": "Espanhol",
+                  "room": "CAF",
+                  "code": "ESP-I"
+                }
+              ]
+            },
+            {
+              "start": "16:05",
+              "end": "16:50",
+              "startMinutes": 965,
+              "endMinutes": 1010,
+              "subject": "Preparação de Provas Finais",
+              "room": "CAF",
+              "options": [
+                {
+                  "subject": "Preparação de Provas Finais",
+                  "room": "CAF",
+                  "code": "PPF_"
+                }
+              ]
+            }
+          ]
+        },
+        "7D": {
+          "1": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Educação Visual",
+              "room": "S20",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S20",
+                  "code": "EV"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Espanhol",
+              "room": "S24",
+              "options": [
+                {
+                  "subject": "Espanhol",
+                  "room": "S24",
+                  "code": "ESP-I"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Ciências Naturais / Ciências Físico-Químicas",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                },
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "Ciências Físico-Químicas / Ciências Naturais",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                },
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Matemática",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S21",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Português",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S21",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Ciências Físico-Químicas",
+              "room": "S23",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:30",
+              "end": "09:15",
+              "startMinutes": 510,
+              "endMinutes": 555,
+              "subject": "Inglês",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S16",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "09:15",
+              "end": "10:00",
+              "startMinutes": 555,
+              "endMinutes": 600,
+              "subject": "Geografia",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S16",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Matemática",
+              "room": "S22",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S22",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Espanhol",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Espanhol",
+                  "room": "S15",
+                  "code": "ESP-I"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Ciências Naturais",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S34",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "História",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S19",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Português",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S13",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Oficina do Conhecimento",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S25",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:30",
+              "end": "09:15",
+              "startMinutes": 510,
+              "endMinutes": 555,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "09:15",
+              "end": "10:00",
+              "startMinutes": 555,
+              "endMinutes": 600,
+              "subject": "Português",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "G11",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Geografia",
+              "room": "S24",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S24",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Inglês",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S15",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "S21",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "Matemática",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S15",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "16:05",
+              "end": "16:50",
+              "startMinutes": 965,
+              "endMinutes": 1010,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S15",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S15",
+                  "code": "DTAA"
+                }
+              ]
+            }
+          ]
+        },
+        "9E": {
+          "1": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Ciências Físico-Químicas",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S18",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Ciências Naturais",
+              "room": "S33",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S33",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Matemática",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S26",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Inglês",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S13",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Inglês",
+              "room": "S33",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S33",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Matemática",
+              "room": "S33",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S33",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Geografia",
+              "room": "S33",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S33",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S33",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Oficina do Conhecimento",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S31",
+                  "code": "OC"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "16:05",
+              "end": "16:50",
+              "startMinutes": 965,
+              "endMinutes": 1010,
+              "subject": "Preparação de Provas Finais",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Preparação de Provas Finais",
+                  "room": "S12",
+                  "code": "PPF_"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Educação Visual",
+              "room": "S20",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S20",
+                  "code": "EV"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Ciências Naturais / Ciências Físico-Químicas",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                },
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Ciências Físico-Químicas / Ciências Naturais",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                },
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "História",
+              "room": "G10",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "G10",
+                  "code": "HIST"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:30",
+              "end": "09:15",
+              "startMinutes": 510,
+              "endMinutes": 555,
+              "subject": "História",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S21",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "09:15",
+              "end": "10:00",
+              "startMinutes": 555,
+              "endMinutes": 600,
+              "subject": "Matemática",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S21",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S33",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "S34",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S33",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S33",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "16:05",
+              "end": "16:50",
+              "startMinutes": 965,
+              "endMinutes": 1010,
+              "subject": "Preparação de Provas Finais",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Preparação de Provas Finais",
+                  "room": "S12",
+                  "code": "PPF_"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Espanhol",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Espanhol",
+                  "room": "S30",
+                  "code": "ESP-I"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S33",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "Sem sala",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Geografia",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S26",
+                  "code": "GEO"
+                }
+              ]
+            }
+          ]
+        },
+        "6E": {
+          "1": [
+            {
+              "start": "08:15",
+              "end": "09:00",
+              "startMinutes": 495,
+              "endMinutes": 540,
+              "subject": "Expressões Artísticas",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S30",
+                  "code": "EA"
+                }
+              ]
+            },
+            {
+              "start": "09:00",
+              "end": "09:45",
+              "startMinutes": 540,
+              "endMinutes": 585,
+              "subject": "Ateliarte",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Ateliarte",
+                  "room": "S30",
+                  "code": "ART"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Ciências Naturais",
+              "room": "S23",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "História e Geografia de Portugal",
+              "room": "S22",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S22",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Matemática",
+              "room": "S22",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S22",
+                  "code": "MAT"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S22",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Educação Musical",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Educação Musical",
+                  "room": "S34",
+                  "code": "EDM"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "Inglês",
+              "room": "S22",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S22",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Oficina do Conhecimento",
+              "room": "S22",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S22",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Matemática",
+              "room": "S22",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S22",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "10:50",
+              "startMinutes": 605,
+              "endMinutes": 650,
+              "subject": "Ciências Naturais",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S10",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "10:50",
+              "end": "11:35",
+              "startMinutes": 650,
+              "endMinutes": 695,
+              "subject": "História e Geografia de Portugal",
+              "room": "S10",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S10",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Expressões Artísticas",
+              "room": "S30",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S30",
+                  "code": "EA"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S22",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "Sem sala",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Inglês",
+              "room": "S22",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S22",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Apoio Tutorial Multidisciplinar",
+              "room": "S22",
+              "options": [
+                {
+                  "subject": "Apoio Tutorial Multidisciplinar",
+                  "room": "S22",
+                  "code": "ATM"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:15",
+              "end": "09:00",
+              "startMinutes": 495,
+              "endMinutes": 540,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "G11",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "09:00",
+              "end": "09:45",
+              "startMinutes": 540,
+              "endMinutes": 585,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S22",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S22",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S22",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "Matemática",
+              "room": "S22",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S22",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            }
+          ]
+        },
+        "5E": {
+          "1": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Educação Musical",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "Educação Musical",
+                  "room": "S14",
+                  "code": "EDM"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Matemática",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S14",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Inglês",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S14",
+                  "code": "ING-I"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "História e Geografia de Portugal",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S14",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Matemática",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S14",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Ciências Naturais",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S25",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Oficina do Conhecimento",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S14",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:15",
+              "end": "09:00",
+              "startMinutes": 495,
+              "endMinutes": 540,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S14",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "09:00",
+              "end": "09:45",
+              "startMinutes": 540,
+              "endMinutes": 585,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S14",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "Sem sala",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "Inglês",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S14",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "História e Geografia de Portugal",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "S14",
+                  "code": "HGP"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Expressões Artísticas",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S29",
+                  "code": "EA"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S14",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "Matemática",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S14",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "Ciências Naturais",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S14",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Apoio Tutorial Multidisciplinar",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "Apoio Tutorial Multidisciplinar",
+                  "room": "S14",
+                  "code": "ATM"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:15",
+              "end": "09:00",
+              "startMinutes": 495,
+              "endMinutes": 540,
+              "subject": "Expressões Artísticas",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S29",
+                  "code": "EA"
+                }
+              ]
+            },
+            {
+              "start": "09:00",
+              "end": "09:45",
+              "startMinutes": 540,
+              "endMinutes": 585,
+              "subject": "Ateliarte",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Ateliarte",
+                  "room": "S29",
+                  "code": "ART"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S14",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "S12",
+                  "code": "EMR"
+                }
+              ]
+            }
+          ]
+        },
+        "5F": {
+          "1": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Matemática",
+              "room": "G10",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "G10",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Português",
+              "room": "G10",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "G10",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Ciências Naturais",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S25",
+                  "code": "CN"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Educação Musical",
+              "room": "S34",
+              "options": [
+                {
+                  "subject": "Educação Musical",
+                  "room": "S34",
+                  "code": "EDM"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Inglês",
+              "room": "G11",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "G11",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Oficina do Conhecimento",
+              "room": "G10",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "G10",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "História e Geografia de Portugal",
+              "room": "G10",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "G10",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Expressões Artísticas",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S29",
+                  "code": "EA"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "Matemática",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S11",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "Ciências Naturais",
+              "room": "S11",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S11",
+                  "code": "CN"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:15",
+              "end": "09:00",
+              "startMinutes": 495,
+              "endMinutes": 540,
+              "subject": "DT Atendimento a Alunos",
+              "room": "G10",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "G10",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "09:00",
+              "end": "09:45",
+              "startMinutes": 540,
+              "endMinutes": 585,
+              "subject": "Inglês",
+              "room": "G10",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "G10",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "11:35",
+              "startMinutes": 605,
+              "endMinutes": 695,
+              "subject": "Matemática",
+              "room": "G10",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "G10",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "13:15",
+              "startMinutes": 705,
+              "endMinutes": 795,
+              "subject": "Português",
+              "room": "G10",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "G10",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:45",
+              "startMinutes": 855,
+              "endMinutes": 945,
+              "subject": "Apoio Tutorial Multidisciplinar",
+              "room": "G10",
+              "options": [
+                {
+                  "subject": "Apoio Tutorial Multidisciplinar",
+                  "room": "G10",
+                  "code": "ATM"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:15",
+              "end": "09:45",
+              "startMinutes": 495,
+              "endMinutes": 585,
+              "subject": "Português",
+              "room": "G10",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "G10",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "10:05",
+              "end": "10:50",
+              "startMinutes": 605,
+              "endMinutes": 650,
+              "subject": "Expressões Artísticas",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Expressões Artísticas",
+                  "room": "S29",
+                  "code": "EA"
+                }
+              ]
+            },
+            {
+              "start": "10:50",
+              "end": "11:35",
+              "startMinutes": 650,
+              "endMinutes": 695,
+              "subject": "Ateliarte",
+              "room": "S29",
+              "options": [
+                {
+                  "subject": "Ateliarte",
+                  "room": "S29",
+                  "code": "ART"
+                }
+              ]
+            },
+            {
+              "start": "11:45",
+              "end": "12:30",
+              "startMinutes": 705,
+              "endMinutes": 750,
+              "subject": "História e Geografia de Portugal",
+              "room": "G10",
+              "options": [
+                {
+                  "subject": "História e Geografia de Portugal",
+                  "room": "G10",
+                  "code": "HGP"
+                }
+              ]
+            },
+            {
+              "start": "12:30",
+              "end": "13:15",
+              "startMinutes": 750,
+              "endMinutes": 795,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "S12",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "13:15",
+              "end": "14:15",
+              "startMinutes": 795,
+              "endMinutes": 855,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:15",
+              "end": "15:00",
+              "startMinutes": 855,
+              "endMinutes": 900,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "15:00",
+              "end": "15:45",
+              "startMinutes": 900,
+              "endMinutes": 945,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            }
+          ]
+        },
+        "7E": {
+          "1": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Ciências Físico-Químicas",
+              "room": "S22",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S22",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Educação Visual",
+              "room": "S20",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S20",
+                  "code": "EV"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Ciências Naturais",
+              "room": "S23",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Inglês",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S12",
+                  "code": "ING-I"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "História",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S16",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Português",
+              "room": "S20",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S20",
+                  "code": "PORT"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Francês",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Francês",
+                  "room": "S12",
+                  "code": "FRA-I"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:30",
+              "end": "09:15",
+              "startMinutes": 510,
+              "endMinutes": 555,
+              "subject": "Inglês",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S17",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "09:15",
+              "end": "10:00",
+              "startMinutes": 555,
+              "endMinutes": 600,
+              "subject": "Matemática",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S17",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Geografia",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S12",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Português",
+              "room": "S16",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S16",
+                  "code": "PORT"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Matemática",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S14",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Francês",
+              "room": "S18",
+              "options": [
+                {
+                  "subject": "Francês",
+                  "room": "S18",
+                  "code": "FRA-I"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Ciências Naturais / Ciências Físico-Químicas",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                },
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Ciências Físico-Químicas / Ciências Naturais",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S23",
+                  "code": "FQ"
+                },
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S23",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Oficina do Conhecimento",
+              "room": "S32",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S32",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Geografia",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S13",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Matemática",
+              "room": "S20",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S20",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Educação Moral Religiosa Católica",
+              "room": "S21",
+              "options": [
+                {
+                  "subject": "Educação Moral Religiosa Católica",
+                  "room": "S21",
+                  "code": "EMR"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S12",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "16:05",
+              "end": "16:50",
+              "startMinutes": 965,
+              "endMinutes": 1010,
+              "subject": "Português",
+              "room": "S12",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S12",
+                  "code": "PORT"
+                }
+              ]
+            }
+          ]
+        },
+        "7F": {
+          "1": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Inglês",
+              "room": "S26",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S26",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Matemática",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S19",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Educação Visual",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "Educação Visual",
+                  "room": "S19",
+                  "code": "EV"
+                }
+              ]
+            }
+          ],
+          "2": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S20",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "História",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "História",
+                  "room": "S13",
+                  "code": "HIST"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Geografia",
+              "room": "S13",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S13",
+                  "code": "GEO"
+                }
+              ]
+            }
+          ],
+          "3": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Ciências Naturais",
+              "room": "S24",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S24",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:50",
+              "startMinutes": 620,
+              "endMinutes": 710,
+              "subject": "Ciências Físico-Químicas",
+              "room": "S24",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S24",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Matemática",
+              "room": "S22",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S22",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "Francês",
+              "room": "S22",
+              "options": [
+                {
+                  "subject": "Francês",
+                  "room": "S22",
+                  "code": "FRA-I"
+                }
+              ]
+            }
+          ],
+          "4": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S20",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "Sem sala",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Tecnologias da Informação e Comunicação",
+              "room": "S31",
+              "options": [
+                {
+                  "subject": "Tecnologias da Informação e Comunicação",
+                  "room": "S31",
+                  "code": "TIC"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Inglês",
+              "room": "S24",
+              "options": [
+                {
+                  "subject": "Inglês",
+                  "room": "S24",
+                  "code": "ING-I"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "12:45",
+              "startMinutes": 720,
+              "endMinutes": 765,
+              "subject": "Ciências Naturais",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "Ciências Naturais",
+                  "room": "S25",
+                  "code": "CN"
+                }
+              ]
+            },
+            {
+              "start": "12:45",
+              "end": "13:30",
+              "startMinutes": 765,
+              "endMinutes": 810,
+              "subject": "DT Atendimento a Alunos",
+              "room": "S25",
+              "options": [
+                {
+                  "subject": "DT Atendimento a Alunos",
+                  "room": "S25",
+                  "code": "DTAA"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "16:00",
+              "startMinutes": 870,
+              "endMinutes": 960,
+              "subject": "Oficina do Conhecimento",
+              "room": "S19",
+              "options": [
+                {
+                  "subject": "Oficina do Conhecimento",
+                  "room": "S19",
+                  "code": "OC"
+                }
+              ]
+            }
+          ],
+          "5": [
+            {
+              "start": "08:30",
+              "end": "10:00",
+              "startMinutes": 510,
+              "endMinutes": 600,
+              "subject": "Francês",
+              "room": "S14",
+              "options": [
+                {
+                  "subject": "Francês",
+                  "room": "S14",
+                  "code": "FRA-I"
+                }
+              ]
+            },
+            {
+              "start": "10:20",
+              "end": "11:05",
+              "startMinutes": 620,
+              "endMinutes": 665,
+              "subject": "Ciências Físico-Químicas",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "Ciências Físico-Químicas",
+                  "room": "S17",
+                  "code": "FQ"
+                }
+              ]
+            },
+            {
+              "start": "11:05",
+              "end": "11:50",
+              "startMinutes": 665,
+              "endMinutes": 710,
+              "subject": "Português / Português Língua Não Materna",
+              "room": "",
+              "options": [
+                {
+                  "subject": "Português",
+                  "room": "S17",
+                  "code": "POR"
+                },
+                {
+                  "subject": "Português Língua Não Materna",
+                  "room": "GAB_PLNM",
+                  "code": "PLNM"
+                }
+              ]
+            },
+            {
+              "start": "12:00",
+              "end": "13:30",
+              "startMinutes": 720,
+              "endMinutes": 810,
+              "subject": "Matemática",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "Matemática",
+                  "room": "S17",
+                  "code": "MAT"
+                }
+              ]
+            },
+            {
+              "start": "13:30",
+              "end": "14:30",
+              "startMinutes": 810,
+              "endMinutes": 870,
+              "subject": "ALMOÇO",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "ALMOÇO",
+                  "room": "Sem sala",
+                  "code": "ALMOÇO"
+                }
+              ]
+            },
+            {
+              "start": "14:30",
+              "end": "15:15",
+              "startMinutes": 870,
+              "endMinutes": 915,
+              "subject": "Geografia",
+              "room": "S17",
+              "options": [
+                {
+                  "subject": "Geografia",
+                  "room": "S17",
+                  "code": "GEO"
+                }
+              ]
+            },
+            {
+              "start": "15:15",
+              "end": "16:00",
+              "startMinutes": 915,
+              "endMinutes": 960,
+              "subject": "Educação Física",
+              "room": "Sem sala",
+              "options": [
+                {
+                  "subject": "Educação Física",
+                  "room": "Sem sala",
+                  "code": "EDF"
+                }
+              ]
+            }
+          ]
         }
-      }
+      },
+      "scheduleSource": "Turmas (1).pdf - Horários 2026/2027"
     }
   }
 };
