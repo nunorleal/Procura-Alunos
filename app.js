@@ -1,4 +1,7 @@
 const schoolData = window.SCHOOL_DATA;
+const bundledSchedulesByYear = Object.fromEntries(
+  Object.entries(schoolData.years).map(([year, payload]) => [year, payload.schedules || {}]),
+);
 
 const searchInput = document.querySelector("#searchInput");
 const searchLabel = document.querySelector("#searchLabel");
@@ -44,9 +47,22 @@ const dayNumbers = {
   "sexta-feira": 5,
 };
 
+function withAvailableSchedules(year, payload) {
+  const schedules = { ...payload.schedules };
+  for (const [classKey, days] of Object.entries(bundledSchedulesByYear[year] || {})) {
+    if (!Object.values(schedules[classKey] || {}).some((lessons) => lessons.length)) {
+      schedules[classKey] = days;
+    }
+  }
+  return { ...payload, schedules };
+}
+
 function loadStoredYears() {
   try {
-    return JSON.parse(localStorage.getItem("schoolImportedYears") || "{}");
+    const stored = JSON.parse(localStorage.getItem("schoolImportedYears") || "{}");
+    return Object.fromEntries(Object.entries(stored).map(([year, payload]) => [
+      year, withAvailableSchedules(year, payload),
+    ]));
   } catch {
     return {};
   }
@@ -93,7 +109,7 @@ async function importStoredData(file) {
 
   const normalizedYears = {};
   for (const [year, yearPayload] of Object.entries(payload.years)) {
-    normalizedYears[year] = normalizeYearPayload(yearPayload);
+    normalizedYears[year] = normalizeYearPayload(withAvailableSchedules(year, yearPayload));
   }
 
   localStorage.setItem("schoolImportedYears", JSON.stringify(normalizedYears));
@@ -358,6 +374,37 @@ function findCurrentLesson(classKey, day, minutes) {
   return lessons.find((lesson) => minutes >= lesson.startMinutes && minutes < lesson.endMinutes);
 }
 
+function lessonOptions(lesson) {
+  return lesson.options?.length ? lesson.options : [{ subject: lesson.subject, room: lesson.room }];
+}
+
+function roomLabel(room) {
+  return !room || room === "Sem sala" ? "Sem sala" : `Sala ${room}`;
+}
+
+function appendLessonOptions(container, options) {
+  options.forEach((option, index) => {
+    if (index) {
+      const separator = document.createElement("span");
+      separator.className = "lesson-or";
+      separator.textContent = "ou";
+      container.append(separator);
+    }
+    const choice = document.createElement("div");
+    choice.className = "lesson-option";
+    const subject = document.createElement("strong");
+    subject.textContent = option.subject;
+    choice.append(subject);
+    if (option.subject.toUpperCase() !== "ALMOÇO") {
+      const room = document.createElement("span");
+      room.className = "lesson-room";
+      room.textContent = roomLabel(option.room);
+      choice.append(room);
+    }
+    container.append(choice);
+  });
+}
+
 function statusForClass(classKey, day, minutes, prefix = "Está") {
   const lessons = lessonsFor(classKey, day);
   const current = findCurrentLesson(classKey, day, minutes);
@@ -371,10 +418,17 @@ function statusForClass(classKey, day, minutes, prefix = "Está") {
       };
     }
 
-    const room = current.room ? ` na sala ${current.room}` : "";
+    const options = lessonOptions(current);
+    if (options.length > 1) {
+      return {
+        active: true,
+        title: "Possíveis atividades neste horário",
+        detail: `${current.start} - ${current.end}\n${options.map((option) => `${option.subject} · ${roomLabel(option.room)}`).join("\nou ")}`,
+      };
+    }
     return {
       active: true,
-      title: `${prefix} a ter ${current.subject}${room}`,
+      title: `${prefix} a ter ${options[0].subject} · ${roomLabel(options[0].room)}`,
       detail: `${current.start} - ${current.end}`,
     };
   }
@@ -448,15 +502,10 @@ function renderSchedule(classKey, day, minutes, container) {
     time.className = "lesson-time";
     time.textContent = `${lesson.start} - ${lesson.end}`;
 
-    const subject = document.createElement("span");
-    subject.className = "lesson-subject";
-    subject.textContent = lesson.subject;
-
-    const room = document.createElement("span");
-    room.className = "lesson-room";
-    room.textContent = lesson.room || "";
-
-    row.append(time, subject, room);
+    const choices = document.createElement("div");
+    choices.className = "lesson-options";
+    appendLessonOptions(choices, lessonOptions(lesson));
+    row.append(time, choices);
     container.append(row);
   }
 }
@@ -466,13 +515,15 @@ function renderWeekSchedule(classKey, selectedDay, minutes, container) {
   container.classList.add("week-schedule");
 
   const days = [1, 2, 3, 4, 5];
-  const slots = [
-    ...new Map(
-      days
-        .flatMap((day) => lessonsFor(classKey, day))
-        .map((lesson) => [`${lesson.start}-${lesson.end}`, lesson]),
-    ).values(),
-  ].sort((a, b) => a.startMinutes - b.startMinutes || a.endMinutes - b.endMinutes);
+  const allLessons = days.flatMap((day) => lessonsFor(classKey, day));
+  const boundaries = [...new Set(allLessons.flatMap((lesson) => [lesson.startMinutes, lesson.endMinutes]))]
+    .sort((a, b) => a - b);
+  const formatMinutes = (value) => `${pad(Math.floor(value / 60))}:${pad(value % 60)}`;
+  const slots = boundaries.slice(0, -1).map((startMinutes, index) => ({
+    startMinutes, endMinutes: boundaries[index + 1],
+    start: formatMinutes(startMinutes), end: formatMinutes(boundaries[index + 1]),
+  })).filter((slot) => allLessons.some((lesson) =>
+    lesson.startMinutes < slot.endMinutes && lesson.endMinutes > slot.startMinutes));
 
   if (!slots.length) {
     const empty = document.createElement("p");
@@ -505,25 +556,17 @@ function renderWeekSchedule(classKey, selectedDay, minutes, container) {
 
     for (const day of days) {
       const lesson = lessonsFor(classKey, day).find(
-        (item) => item.start === slot.start && item.end === slot.end,
+        (item) => item.startMinutes <= slot.startMinutes && item.endMinutes >= slot.endMinutes,
       );
       const cell = document.createElement("div");
       cell.className = "week-cell";
 
       if (lesson) {
-        if (day === selectedDay && minutes >= lesson.startMinutes && minutes < lesson.endMinutes) {
+        if (day === selectedDay && minutes >= slot.startMinutes && minutes < slot.endMinutes) {
           cell.classList.add("active");
         }
 
-        const subject = document.createElement("strong");
-        subject.textContent = lesson.subject;
-        cell.append(subject);
-
-        if (lesson.room) {
-          const room = document.createElement("span");
-          room.textContent = lesson.room;
-          cell.append(room);
-        }
+        appendLessonOptions(cell, lessonOptions(lesson));
       } else {
         cell.classList.add("empty-cell");
         cell.textContent = " ";

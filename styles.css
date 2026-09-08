@@ -492,7 +492,7 @@ summary {
 
 .lesson {
   display: grid;
-  grid-template-columns: 105px 1fr auto;
+  grid-template-columns: 105px minmax(0, 1fr);
   gap: 10px;
   align-items: center;
   padding: 10px 12px;
@@ -514,6 +514,29 @@ summary {
 
 .lesson-subject {
   font-weight: 800;
+}
+
+.lesson-option {
+  display: grid;
+  gap: 3px;
+  overflow-wrap: anywhere;
+}
+
+.lesson-options {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+}
+
+.lesson-or {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.status p,
+.student-result-status em {
+  white-space: pre-line;
 }
 
 .class-grid {
@@ -567,14 +590,15 @@ summary {
 
 .week-schedule {
   display: block;
+  min-width: 0;
   overflow-x: auto;
   padding-bottom: 4px;
 }
 
 .week-grid {
   display: grid;
-  grid-template-columns: 115px repeat(5, minmax(138px, 1fr));
-  min-width: 850px;
+  grid-template-columns: 95px repeat(5, minmax(110px, 1fr));
+  min-width: 680px;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -642,6 +666,11 @@ summary {
   gap: 9px 24px;
   margin: 0;
   padding-left: 28px;
+}
+
+.class-grid > section,
+.class-card {
+  min-width: 0;
 }
 
 .class-list li {
